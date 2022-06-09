@@ -12,7 +12,7 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Contact Information
+      label: Discord User
       description: If you wish, provide us your Discord Username to contact you if we need more info.
       placeholder: ex. Loki2236#4999
     validations:
@@ -20,7 +20,7 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
+      label: Describe the issue on detail
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "I was fighting Godrick and he healed himself when Rogier died!"
@@ -29,7 +29,7 @@ body:
   - type: textarea
     id: steps-recreate
     attributes:
-      label: Steps to recreate the Bug
+      label: Steps to recreate the bug
       description: Any information on how to reproduce the bug.
       placeholder: Tell us what you did to cause that, in detail.
       value: "Go to godrick fight, summon rogier while playing coop. Let godrick kill Rogier, watch him heal."
@@ -41,8 +41,9 @@ body:
       label: Version
       description: What version of the mod are you running?
       options:
-        - 1.2.0 (Current)
+        - 1.2.0 (Latest)
         - 1.1.0
+        - 1.0.1
         - 1.0.0
     validations:
       required: true
