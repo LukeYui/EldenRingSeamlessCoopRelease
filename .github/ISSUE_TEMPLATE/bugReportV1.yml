@@ -53,7 +53,7 @@ body:
       label: Relevant Crash log
       description: Please copy and paste any relevant log output. (Event viewer information about crashes could be helpful)
       value: |
-        1. Pres Win+R
+        1. Press Win+R
         2. Type "eventvwr", and run.
         3. Go to "Windows Logs".
         4. Go to "Application".
