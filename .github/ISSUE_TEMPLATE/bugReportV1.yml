@@ -22,17 +22,15 @@ body:
     attributes:
       label: Describe the issue in detail
       description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "I was fighting Godrick and he healed himself when Rogier died!"
+      placeholder: "I was fighting Godrick and he healed himself when Rogier died!"
     validations:
       required: true
   - type: textarea
     id: steps-recreate
     attributes:
       label: Steps to recreate the bug
-      description: Any information on how to reproduce the bug.
-      placeholder: Note areas, number of people, enemies and prior events if applicable.
-      value: "Go to godrick fight, summon rogier while playing coop. Let godrick kill Rogier, watch him heal."
+      description: Note areas, number of people, enemies and prior events if applicable
+      placeholder: "Go to godrick fight, summon rogier while playing coop. Let godrick kill Rogier, watch him heal."
     validations:
       required: true
   - type: dropdown
@@ -52,7 +50,7 @@ body:
     attributes:
       label: Relevant Crash log
       description: Please copy and paste any relevant log output. (Event viewer information about crashes could be helpful)
-      value: |
+      placeholder: |
         1. Press Win+R
         2. Type "eventvwr", and run.
         3. Go to "Windows Logs".
