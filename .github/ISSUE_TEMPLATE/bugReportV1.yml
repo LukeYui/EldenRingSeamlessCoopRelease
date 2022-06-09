@@ -1,0 +1,63 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - Loki2236
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report
+  - type: input
+    id: contact
+    attributes:
+      label: Discord Username
+      description: If you wish, provide us your Discord Username to contact you if we need more info.
+      placeholder: ex. Loki2236#4999
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the issue in detail
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "I was fighting Godrick and he healed himself when Rogier died!"
+    validations:
+      required: true
+  - type: textarea
+    id: steps-recreate
+    attributes:
+      label: Steps to recreate the bug
+      description: Any information on how to reproduce the bug.
+      placeholder: Note areas, number of people, enemies and prior events if applicable.
+      value: "Go to godrick fight, summon rogier while playing coop. Let godrick kill Rogier, watch him heal."
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of the mod are you running?
+      options:
+        - 1.2.0 (Latest)
+        - 1.1.0
+        - 1.0.1
+        - 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Crash log
+      description: Please copy and paste any relevant log output. (Event viewer information about crashes could be helpful)
+      value: |
+        1. Press Win+R
+        2. Type "eventvwr", and run.
+        3. Go to "Windows Logs".
+        4. Go to "Application".
+        5. Crashes are errors, and are sorted from latest to oldest. Select the most appropriate one.
+        6. Verify that this is at the beginning: "Faulting application name: eldenring.exe"
+        7. Paste the log here.
+      render: shell
