@@ -39,7 +39,8 @@ body:
       label: Version
       description: What version of the mod are you running?
       options:
-        - 1.2.0 (Latest)
+        - 1.2.1 (Latest)
+        - 1.2.0
         - 1.1.0
         - 1.0.1
         - 1.0.0
