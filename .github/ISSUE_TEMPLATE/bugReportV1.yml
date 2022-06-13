@@ -39,7 +39,7 @@ body:
       label: Version
       description: What version of the mod are you running?
       options:
-        - 1.2.3 (Latest)
+        - 1.2.4 (Latest)
         - 1.2.2
         - 1.2.1
         - 1.2.0
