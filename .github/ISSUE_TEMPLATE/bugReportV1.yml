@@ -8,7 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report. Before you do so, try verifying your game files with Steam. There are many issues that can be put down to the game not patching correctly and using the "Verify integrtiy of game files" option in Steam is a good first thing to try.
+        Thanks for taking the time to fill out this bug report.
+        **Before you do so**, try verifying your game files with Steam. There are many issues that can be put down to the game not patching correctly and using the "Verify integrtiy of game files" option in Steam is a good first thing to try.
   - type: input
     id: contact
     attributes:
