@@ -41,7 +41,9 @@ body:
       label: Version
       description: What version of the mod are you running?
       options:
-        - 1.4.3 (Latest)
+        - 1.4.5 (Latest)
+        - 1.4.5 (Don't use)
+        - 1.4.3
     validations:
       required: true
   - type: textarea
