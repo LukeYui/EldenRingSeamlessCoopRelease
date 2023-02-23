@@ -40,8 +40,8 @@ body:
     attributes:
       label: Version
       description: What version of the mod are you running?
-      placeholder: Select version
       options:
+        - Select version
         - 1.4.5 (Latest)
         - 1.4.4 (Don't use)
         - 1.4.3
