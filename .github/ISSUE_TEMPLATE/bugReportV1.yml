@@ -42,7 +42,8 @@ body:
       description: What version of the mod are you running?
       options:
         - Select version
-        - 1.5.0 (Latest)
+        - 1.5.1 (Latest)
+        - 1.5.0
         - 1.4.5
         - 1.4.4 (Don't use)
         - 1.4.3
