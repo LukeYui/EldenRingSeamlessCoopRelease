@@ -11,6 +11,12 @@ body:
         Thanks for taking the time to fill out this bug report.
         
         **Before you do so**, try verifying your game files with Steam. There are many issues that can be put down to the game not patching correctly and using the "Verify integrtiy of game files" option in Steam is a good first thing to try.
+        
+        If you do not provide details on what you've tried / debugging steps. Your game version / mod version, and how to recreate the bug, then the report will be ignored.
+        
+        If you do not provide a title for your bug report, it will be closed.
+        
+        If you duplicate a post, it will be ignored.
   - type: input
     id: contact
     attributes:
