@@ -3,7 +3,7 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["bug"]
 assignees:
-  - Loki2236
+  - childfish
 body:
   - type: markdown
     attributes:
@@ -22,7 +22,7 @@ body:
     attributes:
       label: Discord Username
       description: If you wish, provide us your Discord Username to contact you if we need more info.
-      placeholder: ex. Loki2236#4999
+      placeholder: childfish
     validations:
       required: false
   - type: textarea
@@ -30,7 +30,7 @@ body:
     attributes:
       label: Describe the issue in detail
       description: Also tell us, what did you expect to happen?
-      placeholder: "I was fighting Godrick and he healed himself when Rogier died!"
+      placeholder: "Greetings! I have an issue when I try to join to my friend. It's says "You are joinig another player..." and that's all. I did tests with my friend and found out that this problem occurs when the host in his session kills any boss. After the murder, it's impossible to go to him, unless you rehost. Internet quality doesn't affect this any way, we tried our best to fix it". The version of the mod is 1.5.1 "
     validations:
       required: true
   - type: textarea
@@ -38,7 +38,7 @@ body:
     attributes:
       label: Steps to recreate the bug
       description: Note areas, number of people, enemies and prior events if applicable
-      placeholder: "Go to godrick fight, summon rogier while playing coop. Let godrick kill Rogier, watch him heal."
+      placeholder: "Start a session, kill a random boss. Ask your friends to try to join and they will have an endless message "You are joinig to another player..." "
     validations:
       required: true
   - type: dropdown
