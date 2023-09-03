@@ -30,7 +30,7 @@ body:
     attributes:
       label: Describe the issue in detail
       description: Also tell us, what did you expect to happen?
-      placeholder: "Greetings! I have an issue when I try to join to my friend. It's says "You are joinig another player..." and that's all. I did tests with my friend and found out that this problem occurs when the host in his session kills any boss. After the murder, it's impossible to go to him, unless you rehost. Internet quality doesn't affect this any way, we tried our best to fix it". The version of the mod is 1.5.1 "
+      placeholder: "Greetings! I have an issue when I try to join to my friend. It's says 'You are joinig another player...' and that's all. I did tests with my friend and found out that this problem occurs when the host in his session kills any boss. After the murder, it's impossible to go to him, unless you rehost. Internet quality doesn't affect this any way, we tried our best to fix it". The version of the mod is 1.5.1 "
     validations:
       required: true
   - type: textarea
